@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "productName": "Apple",
+      "category": "Fruits",
+      "freshness": "Second Hand",
+      "price": 299,
+      "comment": "Fresh and Useful",
+      "date": "2022-08-19T17:00:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Rose",
+      "category": "Flowers",
+      "freshness": "Brand New",
+      "price": 299,
+      "comment": "Beautiful",
+      "date": "2022-08-19T17:00:00.000Z",
+      "id": 2
+    }
+  ]
+}

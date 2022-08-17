@@ -1,0 +1,12 @@
+<h1 mat-dialog-title>Delete Product</h1>
+<div style="font-size: 1.2em" mat-dialog-content>
+  Would you like to delete
+  <strong style="color: #4052b3">{{ deleteData.productName }}</strong>
+  ?
+</div>
+<div style="justify-content: flex-end" mat-dialog-actions>
+  <button mat-button mat-dialog-close>No</button>
+  <button color="warn" mat-button (click)="deleteProduct(deleteData.id)">
+    {{ confirmButton }}
+  </button>
+</div>
